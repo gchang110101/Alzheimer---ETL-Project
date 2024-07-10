@@ -1,0 +1,58 @@
+2024-06-21 20:06:52,094:INFO:Los datos del result set del select completo de la tabla AlzheimerRecords de la BD AlzheimerDB, se ha cargados de manera exitosa al data frame
+2024-06-21 20:06:52,151:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-06-21 20:07:32,107:INFO:Los datos del result set del select completo de la tabla AlzheimerRecords de la BD AlzheimerDB, se ha cargados de manera exitosa al data frame
+2024-06-21 20:10:26,891:INFO:Los datos del result set del select completo de la tabla AlzheimerRecords de la BD AlzheimerDB, se ha cargados de manera exitosa al data frame
+2024-06-27 23:14:48,996:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-06-27 23:15:07,442:INFO:Los datos del result set del select completo de la tabla AlzheimerRecords de la BD AlzheimerDB, se ha cargados de manera exitosa al data frame
+2024-06-27 23:24:07,322:INFO:Los datos del result set del select completo de la tabla AlzheimerRecords de la BD AlzheimerDB, se ha cargados de manera exitosa al data frame
+2024-06-27 23:32:27,086:INFO:carga de datos exitosa al data frame --> hay {num_rosws} filas
+2024-07-05 16:24:53,455:INFO:carga de datos exitosa al data frame --> hay {num_rows} filas
+2024-07-05 16:29:50,426:INFO:carga de datos exitosa al data frame --> hay 284142 filas
+2024-07-05 16:34:46,687:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-05 16:42:24,272:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-05 16:50:20,754:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-05 16:50:20,774:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-07-05 16:52:11,960:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-05 16:54:29,420:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-05 16:55:20,563:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-05 17:00:22,333:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-05 17:13:19,315:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-05 17:13:20,460:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-07-05 17:14:53,223:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-05 17:26:05,836:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-05 17:28:08,359:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-05 17:37:20,973:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-05 18:39:40,161:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-05 19:30:30,698:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-05 19:30:31,167:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-05 19:30:32,995:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-07-05 19:33:08,281:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-05 19:33:08,611:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-05 19:33:10,035:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-07-05 19:34:49,770:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-05 19:34:50,076:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-05 19:34:51,706:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-07-05 19:44:02,950:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-05 19:44:03,278:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-09 23:22:30,063:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-09 23:22:30,649:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-09 23:22:32,932:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-07-09 23:26:36,345:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-09 23:26:36,799:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-09 23:29:32,046:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-09 23:29:32,615:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-09 23:31:25,319:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-09 23:31:25,681:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-09 23:34:51,521:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-07-09 23:35:22,182:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-07-09 23:37:33,182:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-07-09 23:38:41,134:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-09 23:38:41,693:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-09 23:41:00,700:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-07-09 23:44:04,943:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-07-09 23:45:23,082:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-07-09 23:45:39,903:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-07-09 23:46:22,266:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-07-09 23:47:41,984:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-07-09 23:52:46,723:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-09 23:52:47,198:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
