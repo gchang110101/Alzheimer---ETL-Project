@@ -2,17 +2,20 @@ from sqlalchemy import create_engine
 import logging as log
 import pandas as pd
 import numpy as np
+import pyodbc
 
 alzheimer_query_file = 'alzheimer_query.sql'
 server = 'localhost'
 driver = 'ODBC Driver 17 for SQL Server'
 database = 'ALZHEIMER_DB'
+dim_database = 'DIM_ALZHEIMER_DB'
+create_dim_script = 'create_dim_alzheimer.sql'
+insert_dim_script = 'inserts_dim_alzheimer.sql'
 
 log.basicConfig(filename='etl.log', level=log.INFO,
  format='%(asctime)s:%(levelname)s:%(message)s')
 
 try:
-    
     # cadena de conexion para la base de datos con sql alchemy (engine)
     connection_string = f'mssql+pyodbc://{server}/{database}?driver={driver}&trusted_connection=yes'
     engine = create_engine(connection_string)
@@ -89,12 +92,35 @@ try:
     #print(data_frame['Latitud'].sample(3))
     #print(data_frame['Data_Value'].sample(10))
 
-    #crear tabla de staging en al base de datos segun df transformado
-    data_frame = data_frame.head(100)
+    #crear tabla de staging en la base de datos segun df transformado (muestra de 500 records)
+    data_frame = data_frame.head(500)
     data_frame.to_sql('AlzheimerStaging', engine, if_exists='replace', index=False)
 
     #borrar data_frame
     del data_frame
+
+    #crear DB y modelo dimensional + una conexión con pyodbc para la otra DB
+    dim_conn_string = f'DRIVER={{{driver}}};SERVER={server};Trusted_Connection=yes;'
+    dim_connection = pyodbc.connect(dim_conn_string, autocommit=True)
+    dim_cursor = dim_connection.cursor()
+    dim_cursor.execute(f"IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = '{dim_database}') "
+                   f"CREATE DATABASE {dim_database};")
+    
+    #leer y cargar le archivo que crea el modelo dimensional en la nueva DB
+    with open(create_dim_script, 'r') as createDim_file:
+        createDim_excecute_script = createDim_file.read()
+
+    dim_cursor.execute(createDim_excecute_script)
+
+    #leer y cargar los inserts desde la tabla staging de la db original (datos transformados con el DF) a la DB dimensional
+    with open(insert_dim_script, 'r') as insert_dim_file:
+        insertDim_excecute_script = insert_dim_file.read()
+
+    dim_cursor.execute(insertDim_excecute_script)
+
+    #cerrar conexion con la DB dimensional
+    engine.dispose()
+    dim_connection.close()
 
 except Exception as ex:
     print("Hubo un error durante la conexion o ejecución del script SQL. MENSAJE -->: {}".format(ex))

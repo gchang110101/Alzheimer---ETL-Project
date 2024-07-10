@@ -56,3 +56,42 @@
 2024-07-09 23:47:41,984:ERROR:Hubo un error al tratar de cargar los datos al data frame
 2024-07-09 23:52:46,723:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
 2024-07-09 23:52:47,198:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-10 01:04:02,053:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-10 01:04:02,421:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-10 01:04:32,762:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-07-10 01:18:45,974:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-10 01:18:46,473:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-10 01:19:16,346:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-07-10 01:23:13,256:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-10 01:23:13,753:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-10 01:23:44,322:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-07-10 01:25:53,961:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-10 01:25:54,428:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-10 01:29:09,172:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-10 01:29:09,886:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-10 01:31:09,463:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-10 01:31:09,938:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-10 01:35:15,909:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-10 01:35:16,263:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-10 01:51:40,431:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-10 01:51:41,043:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-10 02:09:46,133:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-10 02:09:46,472:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-10 02:09:55,438:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-07-10 02:10:59,792:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-10 02:11:00,263:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-10 02:26:33,712:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-10 02:26:34,353:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-10 02:27:05,892:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-07-10 02:29:07,400:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-10 02:29:08,205:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-10 02:43:41,813:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-10 02:43:42,264:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-10 02:43:59,257:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-07-10 03:08:56,663:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-10 03:08:57,327:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-10 03:09:33,376:ERROR:Hubo un error al tratar de cargar los datos al data frame
+2024-07-10 03:11:42,653:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-10 03:11:43,180:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
+2024-07-10 03:14:56,106:INFO:carga de datos exitosa al data frame --> hay 284142 filas, y 31 columnas
+2024-07-10 03:14:56,595:INFO:columnas eliminadas: Datasource, Data_Value_Footnote, Data_Value_Footnote_Symbol, StratificationCategory1, Data_Value_Alt
